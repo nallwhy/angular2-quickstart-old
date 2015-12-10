@@ -1,0 +1,29 @@
+{
+  "name": "angular2-quickstart",
+  "version": "1.0.0",
+  "description": "Simple Angular2 project quickstart guide",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nallwhy/angular2-quickstart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nallwhy/angular2-quickstart/issues"
+  },
+  "homepage": "https://github.com/nallwhy/angular2-quickstart#readme",
+  "dependencies": {
+    "angular2": "2.0.0-alpha.52",
+    "systemjs": "0.19.6"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.2",
+    "typescript": "^1.7.3"
+  }
+}
