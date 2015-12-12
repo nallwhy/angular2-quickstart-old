@@ -16,7 +16,17 @@ npm i typescript live-server --save-dev
   "scripts": {
     "tsc": "tsc -p src -w",
     "start": "live-server --open=src"
-  }
+  },
+  ...
+  "dependencies": {
+    "angular2": "2.0.0-alpha.52",
+    "systemjs": "0.19.6",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-alpha.14",
+    "zone.js": "0.5.8"
+  },
   ...
 }
 ```
